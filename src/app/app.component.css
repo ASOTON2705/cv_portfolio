@@ -1,0 +1,100 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #f8f9fa;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.header-content h1 {
+  margin: 0;
+  font-size: 2.5em;
+  text-decoration: underline;
+  text-decoration-skip-ink: auto;
+}
+
+.profile-photo {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: top;
+}
+
+.container {
+  padding: 20px;
+}
+
+h2 {
+  font-size: 1.5em;
+  margin-top: 0;
+}
+
+h4 {
+  font-size: 1.1em;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+p {
+  font-size: 1em;
+  line-height: 1.5;
+  text-align: justify;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  margin-bottom: 10px;
+}
+
+ul li .experience-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+ul li strong,
+ul li span {
+  display: inline-block;
+  vertical-align: top;
+}
+
+ul li strong {
+  font-size: 1.2em;
+  margin-right: 20px;
+  font-style: italic;
+}
+
+ul li span {
+  font-size: 0.9em;
+  font-weight: bold;
+}
+
+ul li p {
+  font-size: 0.9em;
+  margin: 5px 0;
+}
+
+.section-profile {
+  margin-bottom: 0px;
+}
+
+.section-experience {
+  margin-top: 0px;
+}
